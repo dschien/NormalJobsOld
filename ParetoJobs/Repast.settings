@@ -12,6 +12,6 @@
     <string>SettingsRegistryId</string>
     <string>Repast.registry</string>
     <string>LastLoadedScenario</string>
-    <string>/Users/schien/workspaces/symphony/ParetoJobs/ParetoJobs.rs</string>
+    <string>/Users/schien/git/ParetoJobs/ParetoJobs/ParetoJobs.rs</string>
   </hashtable>
 </simphony.settings.SettingsRegistry>

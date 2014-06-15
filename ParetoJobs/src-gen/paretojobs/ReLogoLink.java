@@ -297,45 +297,24 @@ public class ReLogoLink<T> extends BaseLink<T>	{
 	}
 
 	/**
-	 * Returns the value of the global variable avgWorkEffort .
+	 * Returns the value of the global variable totalRequirements.
 	 *
-	 * @return the value of the global variable avgWorkEffort 
+	 * @return the value of the global variable totalRequirements
 	 */
-	@ReLogoBuilderGeneratedFor("global: avgWorkEffort ")
-	public Object getAvgWorkEffort (){
-		return repast.simphony.relogo.ReLogoModel.getInstance().getModelParam("avgWorkEffort ");
+	@ReLogoBuilderGeneratedFor("global: totalRequirements")
+	public Object getTotalRequirements(){
+		return repast.simphony.relogo.ReLogoModel.getInstance().getModelParam("totalRequirements");
 	}
 
 	/**
-	 * Sets the value of the global variable avgWorkEffort .
+	 * Sets the value of the global variable totalRequirements.
 	 *
 	 * @param value
 	 *            a value
 	 */
-	@ReLogoBuilderGeneratedFor("global: avgWorkEffort ")
-	public void setAvgWorkEffort (Object value){
-		repast.simphony.relogo.ReLogoModel.getInstance().setModelParam("avgWorkEffort ",value);
-	}
-
-	/**
-	 * Returns the value of the global variable varWorkEffort .
-	 *
-	 * @return the value of the global variable varWorkEffort 
-	 */
-	@ReLogoBuilderGeneratedFor("global: varWorkEffort ")
-	public Object getVarWorkEffort (){
-		return repast.simphony.relogo.ReLogoModel.getInstance().getModelParam("varWorkEffort ");
-	}
-
-	/**
-	 * Sets the value of the global variable varWorkEffort .
-	 *
-	 * @param value
-	 *            a value
-	 */
-	@ReLogoBuilderGeneratedFor("global: varWorkEffort ")
-	public void setVarWorkEffort (Object value){
-		repast.simphony.relogo.ReLogoModel.getInstance().setModelParam("varWorkEffort ",value);
+	@ReLogoBuilderGeneratedFor("global: totalRequirements")
+	public void setTotalRequirements(Object value){
+		repast.simphony.relogo.ReLogoModel.getInstance().setModelParam("totalRequirements",value);
 	}
 
 	/**
@@ -360,24 +339,24 @@ public class ReLogoLink<T> extends BaseLink<T>	{
 	}
 
 	/**
-	 * Returns the value of the global variable numJobs.
+	 * Returns the value of the global variable distShape.
 	 *
-	 * @return the value of the global variable numJobs
+	 * @return the value of the global variable distShape
 	 */
-	@ReLogoBuilderGeneratedFor("global: numJobs")
-	public Object getNumJobs(){
-		return repast.simphony.relogo.ReLogoModel.getInstance().getModelParam("numJobs");
+	@ReLogoBuilderGeneratedFor("global: distShape")
+	public Object getDistShape(){
+		return repast.simphony.relogo.ReLogoModel.getInstance().getModelParam("distShape");
 	}
 
 	/**
-	 * Sets the value of the global variable numJobs.
+	 * Sets the value of the global variable distShape.
 	 *
 	 * @param value
 	 *            a value
 	 */
-	@ReLogoBuilderGeneratedFor("global: numJobs")
-	public void setNumJobs(Object value){
-		repast.simphony.relogo.ReLogoModel.getInstance().setModelParam("numJobs",value);
+	@ReLogoBuilderGeneratedFor("global: distShape")
+	public void setDistShape(Object value){
+		repast.simphony.relogo.ReLogoModel.getInstance().setModelParam("distShape",value);
 	}
 
 

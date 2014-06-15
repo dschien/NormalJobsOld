@@ -9,6 +9,7 @@ class Worker extends ReLogoTurtle {
 
 	double skill = 1
 	Job job
+	double maxEffort
 	
 	/**
 	 * If he has a job, works on it
@@ -21,8 +22,8 @@ class Worker extends ReLogoTurtle {
 			double increment = skill
 			job.completion += increment
 
-			double ticks = RunEnvironment.getInstance().getCurrentSchedule().getTickCount()
-			skill += Math.sqrt(ticks)
+//			double ticks = RunEnvironment.getInstance().getCurrentSchedule().getTickCount()
+//			skill += Math.sqrt(ticks)
 			return job
 		}
 		return null
